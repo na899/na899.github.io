@@ -1,3 +1,7 @@
+#aboutme{width:700px;
+margin:0 auto 0 auto;}
+
+
 body{
 background-size:auto;
 background-image:url("bgi1.jpg");
@@ -11,6 +15,7 @@ p{position: relative;
  	color: white;
 }
 
+
 #a{background-color:#444;
 text-align:center;
 
@@ -21,6 +26,7 @@ text-align:center;
 color:steelblue;
 font-size:50px;
 font-weight:bold;
+width:800px;
 
 /*Adding shadow effects*/
 text-shadow:2px 2px black;  }
@@ -52,15 +58,14 @@ font-size:20px;
 }
 .a{
 position:absolute;
-width:1325px ;
+width:700px ;
 padding:auto;
-margin-left:auto;
-margin-right:auto;
+margin:0 auto 0 auto;
 text-align:center;
 height:100px;text-align:center;
-border:2px solid black;
+
 font-size:30px;
-background-color:skyblue;
+background-color:#555;
 display:none;
 }
 .b{positon:absolute;
