@@ -73,6 +73,8 @@ background-color:steelblue;
 font-size:1vw;
 padding:auto;
 positon:relative;
-
+ width:100%;
+min-width:50px;
+max-width:250px;
 }
 
