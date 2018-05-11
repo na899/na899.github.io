@@ -30,7 +30,7 @@ font-weight:bold;
 
 
 /*Adding shadow effects*/
-text-shadow:2px 2px black;  }
+text-shadow:0.1vw 0.1vw black;  }
 
 
 #p2{
@@ -71,5 +71,5 @@ display:none;
 .b{
 padding:auto;
 positon:absolute;
-width:3vw;
+width:auto;
 border-radius:20%;}
