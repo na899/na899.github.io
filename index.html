@@ -1,63 +1,86 @@
-
 <!DOCTYPE html>
+<head>
+	
+<!DOCTYPE html>
+<html>
 	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	  <title>It's Me</title>
-	  <link href="style.css" rel="stylesheet" type ="text/css"/>
+	  <link href="stl.css" rel="stylesheet" type ="text/css"/>
 	 <script type="text/javascript">
+
+
+
 	var x=0;
 	window.onload=function()
 	{
-	document.getElementById("1").style.display="block";
-	x++;
+		document.getElementById("1").style.display="block";
+		x++;
 
-	 change=function()
-	{if(x<6){
-	console.log(x);
-	x++;
-	document.getElementById(x).style.display="block";}
-	}
-	}
+		 change=function()
+		{if(x<6)
+			{
+			console.log(x);
+			x++;
+			if(x==2)
+				{document.getElementById("1").innerHTML=" I'm a Computer Science Engineering  undergrad  at  NIT-Trichy";
+	     
+			      document.getElementById("1").href="https://www.nitt.edu";
+			      document.getElementById("1").target="_blank";
+				}
+
+			else if(x==3)
+			document.getElementById("1").innerText="I've developed a great love for coding and food";
+			else if(x==4)
+			document.getElementById("1").innerText="I'm fluent in 4 languages (Tamil,English,C and C++ :p). Working on learning a few more ";
+
+			else if(x==5)
+			document.getElementById("1").innerText="Have started on Web and App Development. This webpage is a result of that! :)";
+
+			else if(x==6)
+			document.getElementById("1").innerText="If you wanna know more about me................................Well Catch me if you can! ;) " ;
+
+			}
+		}
+   }
 
  
 	</script>
 
 	</head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
 
 	<body>
 	 <div id="aboutme">
-	<div id="a">
-	 <p id="p1">
-	 Hey! This is Naveena.
-	 </p>
-	 <p id="p2">
+	 <div id="a">
+		 <p id="p1">
+			 Hey! This is Naveena.
+		 </p>
+		 <p id="p2">
              -Welcome to my web page :) 
-	 </p>
-	</div>
-	 <p id="p3">
-	 Wondering who i am?
-	 </p>
-	 <p id="p4">
-	 Umm...let me tell you a bit about me
-	 </p>
-	<p id="p5">
-	 Well it isn't that easy yet!
-	 </p>
+		 </p>
+	 </div>
+		 <p id="p3">
+		 Wondering who i am?
+		 </p>
+		 <p id="p4">
+		 Umm...let me tell you a bit about me
+		 </p>
+		 <p id="p5">
+		 Well it isn't that easy yet!
+		 </p>
  
-  
+       <input onclick="change()" class="b" type="button" value="Click me :D "/> 
  
-	 <div id="1" class="a"> Keep clicking the button to know more!<input onclick="change()" class="b" type="button" value=" :D "/>     </div>
+	   <div id="1" class="a"> Keep clicking the button to know more!  <a  href="">  </a></div>
 
-	 <div id="2" class="a"> I'm a Computer Science Engineering  undergrad  at <a href="https://www.nitt.edu" title="nitt">   NIT-Trichy<a>. Click to know more about the institution.     <input onclick="change()" class="b" type="button" value=" :D "/>     </div>
+	                    
+     </div>
 
+	  </body>
 
-	 <div id="3" class="a">I've developed a great love for coding and food<input  onclick="change()" class="b" type="button"  value=" :D "/>      </div>
-	 <div id="4" class="a">I'm fluent in 4 languages (Tamil,English,C and C++ :p). Working on learning a few more <input onclick="change()" class="b" type="button" value=" :D "/>      </div>
-	 <div id="5" class="a">Have started on Web and App Development. This webpage is a result of that! :) <input  onclick="change()" class="b" type="button" value=" :D "/>      </div>
-	 <div id="6" class="a"> If you wanna know more about me................................            
-               Well Catch me if you can! ;)  <input onclick="change()" class="b" type="button" value=" :D "/>      </div>
-
-	</div>  
-	</html>
+</html>
 
 	
+</html>
