@@ -1,4 +1,4 @@
-#aboutme{width:700px;
+#aboutme{width:51vw;
 margin:0 auto 0 auto;}
 
 
@@ -13,6 +13,7 @@ background-repeat:repeat;
 
 p{position: relative;
  	color: white;
+
 }
 
 
@@ -24,9 +25,9 @@ text-align:center;
 #p1{ height:14px;
 
 color:steelblue;
-font-size:50px;
+font-size:4.5vw;
 font-weight:bold;
-width:800px;
+
 
 /*Adding shadow effects*/
 text-shadow:2px 2px black;  }
@@ -35,39 +36,40 @@ text-shadow:2px 2px black;  }
 #p2{
 padding:1px;
 color:skyblue;
-font-size:20px;
+font-size:1vw;
 font-style:italic;
 }
 #p3{ 
 background-color:#444;
 text-align:center;
 color:white;
-font-size:20px;
+font-size:1.5vw;
 }
 #p4{ 
 background-color:#444;
 text-align:center;
 color:white;
-font-size:20px;
+font-size:1.5vw;
 }
 #p5{ 
 background-color:#444;
 text-align:center;
 color:white;
-font-size:20px;
+font-size:1.5vw;
 }
 .a{
 position:absolute;
-width:700px ;
+width:51vw ;
 padding:auto;
 margin:0 auto 0 auto;
 text-align:center;
-height:100px;text-align:center;
-
-font-size:30px;
+height:7.5vw;
+font-size:2vw;
 background-color:#555;
 display:none;
 }
-.b{positon:absolute;
-width:50px;
-border-radius:50%;}
+.b{
+padding:auto;
+positon:absolute;
+width:3vw;
+border-radius:20%;}
